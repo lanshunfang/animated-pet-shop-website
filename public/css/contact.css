@@ -1,0 +1,105 @@
+.contactus>form,
+fieldset {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 150px
+}
+
+.contactus input {
+    margin-bottom: 20px;
+}
+
+.turtle img {
+    width: 130px;
+    border-radius: 50px;
+}
+
+
+/* turtle animate */
+
+.turtle {
+    margin-top: 287px;
+    width: 130px;
+    -webkit-animation: moveturtle 16s linear infinite;
+    -moz-animation: moveturtle 16s linear infinite;
+    -o-animation: moveturtle 16s linear infinite;
+}
+
+@-webkit-keyframes moveturtle {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 950px;
+    }
+}
+
+@-moz-keyframes moveclouds {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 950px;
+    }
+}
+
+@-o-keyframes moveclouds {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 950px;
+    }
+}
+
+.turtle img:hover {
+    -webkit-transform: rotate(130deg);
+    /* Safari */
+    transform: rotateY(130deg);
+}
+
+.contactpic {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.contactpic:hover {
+    webkit-animation: dog 0.3s linear infinite;
+    -moz-animation: dog 0.3s linear infinite;
+    animation: dog 0.3s linear infinite;
+}
+
+@-moz-keyframes dog {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes dog {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes dog {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+.comments{width:300px;}
+.contactus .contactbutton{padding:8px;}
+
+legend{font-size:30px;}
+
+
+label.error{color: #c03e32;
+font-size: 14px;
+font-family: verdana;}
+
+.groomingmain form{height:100%;overflow:hidden;width:30%;}

@@ -1,0 +1,27 @@
+#aboutusmain article {
+    margin-left: 20px;
+}
+
+.iframe {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hourss {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+.hourss span {
+    font-size: 20px;
+    color: #2f80a4;
+}
+
+.contenteditable {
+    background-color: #2f80a4;
+    text-align: center;
+}
